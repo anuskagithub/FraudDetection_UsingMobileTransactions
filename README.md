@@ -6,7 +6,7 @@ This project focuses on detecting fraudulent transactions in mobile money operat
 To build a machine learning model that can accurately classify whether a transaction is fraudulent based on transaction features, and deploy a working prototype with a dashboard for visualization and predictions.
 
 # Dataset
-Source: Kaggle - Mobile Money Fraud Detection
+Source: [Kaggle - Mobile Money Fraud Detection](https://www.kaggle.com/code/gcdatkin/mobile-payment-fraud-detection)
 
 # Features:
 type: Type of transaction (e.g., CASH_OUT, TRANSFER)
