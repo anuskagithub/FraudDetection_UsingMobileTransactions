@@ -16,36 +16,36 @@ isFraud: Target variable (1 for fraud, 0 for normal)
 
 # Project Pipeline
 1. Data Preprocessing
--Loaded dataset using pandas
--Handled missing values
--Encoded categorical variables using LabelEncoder
--Scaled features with StandardScaler
--Handled class imbalance using SMOTE
+- Loaded dataset using pandas
+- Handled missing values
+- Encoded categorical variables using LabelEncoder
+- Scaled features with StandardScaler
+- Handled class imbalance using SMOTE
 
 2. Exploratory Data Analysis (EDA)
--Distribution of fraud vs. non-fraud transactions
--Correlation heatmaps
--Insights on transaction types and their fraud likelihood
+- Distribution of fraud vs. non-fraud transactions
+- Correlation heatmaps
+- Insights on transaction types and their fraud likelihood
 
 3. Model Building
--Trained multiple models:
-  -Logistic Regression
-  -XGBoost
+- Trained multiple models:
+  - Logistic Regression
+  - XGBoost
 
--Used metrics like:
-  -Accuracy
-  -Confusion Matrix
-  -ROC-AUC
-  -Classification Report
+- Used metrics like:
+  - Accuracy
+  - Confusion Matrix
+  - ROC-AUC
+  - Classification Report
 
 4. Evaluation
--Compared model performance
--Identified XGBoost as the most accurate and reliable model
+- Compared model performance
+- Identified XGBoost as the most accurate and reliable model
 
 # Technologies Used
--Python
--Pandas, NumPy, Seaborn, Matplotlib
--Scikit-learn
--XGBoost
--Imbalanced-learn (SMOTE)
+- Python
+- Pandas, NumPy, Seaborn, Matplotlib
+- Scikit-learn
+- XGBoost
+- Imbalanced-learn (SMOTE)
 
