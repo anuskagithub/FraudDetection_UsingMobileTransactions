@@ -1,4 +1,5 @@
 Fraud Detection Using Mobile Transactions
+
 This project focuses on detecting fraudulent transactions in mobile money operations using supervised machine learning techniques. The dataset was obtained from Kaggle and processed through data cleaning, exploratory analysis, model building, and evaluation.
 
 Objective
