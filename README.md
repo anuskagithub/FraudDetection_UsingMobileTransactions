@@ -1,20 +1,20 @@
-Fraud Detection Using Mobile Transactions
+###Fraud Detection Using Mobile Transactions
 
-This project focuses on detecting fraudulent transactions in mobile money operations using supervised machine learning techniques. The dataset was obtained from Kaggle and processed through data cleaning, exploratory analysis, model building, and evaluation.
+<p align='justify>This project focuses on detecting fraudulent transactions in mobile money operations using supervised machine learning techniques. The dataset was obtained from Kaggle and processed through data cleaning, exploratory analysis, model building, and evaluation.
 
-Objective
+#Objective
 To build a machine learning model that can accurately classify whether a transaction is fraudulent based on transaction features, and deploy a working prototype with a dashboard for visualization and predictions.
 
-Dataset
+#Dataset
 Source: Kaggle - Mobile Money Fraud Detection
 
-Features:
+#Features:
 type: Type of transaction (e.g., CASH_OUT, TRANSFER)
 amount: Amount involved in the transaction
 oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest: Balance before and after the transaction
 isFraud: Target variable (1 for fraud, 0 for normal)
 
-Project Pipeline
+#Project Pipeline
 1. Data Preprocessing
 -Loaded dataset using pandas
 -Handled missing values
@@ -42,10 +42,10 @@ Project Pipeline
 -Compared model performance
 -Identified XGBoost as the most accurate and reliable model
 
-Technologies Used
+#Technologies Used
 -Python
 -Pandas, NumPy, Seaborn, Matplotlib
 -Scikit-learn
 -XGBoost
--Imbalanced-learn (SMOTE)
+-Imbalanced-learn (SMOTE)</p>
 
